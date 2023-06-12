@@ -3,32 +3,39 @@ import React from 'react';
 
 function Hero() {
 	return (
-		<section className='home gap-8'>
-			<div className='home-content flex flex-col gap-4'>
+		<section className='min-h-screen flex flex-col md:grid place-items-center px-16 md:pr-0 gap-12 grid-cols-12'>
+			<div className='home-content flex flex-col gap-4 col-span-4 '>
 				<h1>Učimo mlade, otvaramo puteve budućnosti!</h1>
 
 				<p>
 					Pridružite se našoj zajednici mladih entuzijasta koji
 					zajedno rastu, uče i ostvaruju svoj pun potencijal.
 				</p>
-				<div className='btn-box'>
-					<a href='#'>Postani volonter</a>
-					<a href='#'>Naši projekti</a>
+				<div className='btn-box flex justify-between flex-col gap-4'>
+					<a href='#' className='bg-[#00abf0] text-[#081b29]'>
+						Postani volonter
+					</a>
+					<a href='#' className='bg-transparent text-[#00abf0]'>
+						Naši projekti
+					</a>
 				</div>
 				<div className='home-sci flex justify-between gap-8'>
 					<a
-						href='https://www.facebook.com/ilhan.musanovic'
+						href='https://www.facebook.com/PlusUltraYouth'
 						aria-label='Facebook'
 					>
 						<i className='bx bxl-facebook'></i>
 					</a>
 					<a
-						href='https://www.instagram.com/ebuilhan/'
+						href='https://www.instagram.com/plusultrayouth'
 						aria-label='Instagram'
 					>
 						<i className='bx bxl-instagram'></i>
 					</a>
-					<a href='#' aria-label='Linkedin'>
+					<a
+						href='https://www.linkedin.com/company/plusultrayouth'
+						aria-label='Linkedin'
+					>
 						<i className='bx bxl-linkedin'></i>
 					</a>
 				</div>
@@ -39,7 +46,7 @@ function Hero() {
 				alt='My project'
 				width={1000}
 				height={1600}
-				className='h-full'
+				className='h-full col-span-8 order-first md:order-none'
 			/>
 		</section>
 	);

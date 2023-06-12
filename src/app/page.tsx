@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Header from './Header';
 import Hero from './Hero';
 import 'boxicons/css/boxicons.min.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
 	return (
@@ -9,6 +10,7 @@ export default function Home() {
 			<Header></Header>
 
 			<Hero></Hero>
+			<Analytics />
 		</main>
 	);
 }

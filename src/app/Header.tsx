@@ -3,8 +3,8 @@ import React from 'react';
 
 function Header() {
 	return (
-		<header className='fixed top-0 bg-[#081b29]/80 backdrop-blur-lg left-0 w-full py-5 px-2.5 flex justify-between items-center z-50'>
-			<a href='#' className='logo' aria-label='home'>
+		<header className='fixed top-0 bg-[#081b29]/80 backdrop-blur-lg left-0 w-full py-6 px-16 flex justify-between items-center z-50'>
+			<a href='/' className='logo' aria-label='home'>
 				<Image
 					src='/logo.svg'
 					alt='logo udruženja'
@@ -13,13 +13,12 @@ function Header() {
 				></Image>
 			</a>
 			<nav className='navbar'>
-				<a href='#' className='active'>
-					Home
+				<a href='/' className='active'>
+					Početna
 				</a>
-				<a href='#'>About</a>
-				<a href='#'>Projects</a>
-				<a href='#'>Portofolio</a>
-				<a href='#'>Contact</a>
+				<a href='/'>O nama</a>
+				<a href='/'>Projekti</a>
+				<a href='/'>Kontakt</a>
 			</nav>
 		</header>
 	);
