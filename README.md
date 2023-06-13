@@ -1,18 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+To install the required Node packages before running the development server for your Next.js project, follow these steps:
 
-## Getting Started
+1. Open a terminal or command prompt.
 
-First, run the development server:
+2. Navigate to the root directory of your project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+3. Run the following command to install the dependencies specified in your `package.json` file:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npm install
+   # or
+   yarn
+   # or
+   pnpm install
+   ```
+
+   This command will install all the necessary packages and their dependencies.
+
+4. Once the installation is complete, you can start the development server by running:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+   This command will start the Next.js development server, and you will see the server running at [http://localhost:3000](http://localhost:3000).
+
+5. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the result of your Next.js application.
+
+Now you're ready to edit the pages of your Next.js project. The page will auto-update as you make changes to the files. Enjoy developing your Next.js application!
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
