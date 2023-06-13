@@ -18,7 +18,7 @@ function Hero() {
 						Naši projekti
 					</a>
 				</div>
-				<div className='home-sci flex justify-between gap-8'>
+				<div className='home-sci flex gap-8'>
 					<a
 						href='https://www.facebook.com/PlusUltraYouth'
 						aria-label='Facebook'

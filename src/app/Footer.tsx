@@ -3,10 +3,12 @@ import React from 'react';
 function Footer() {
 	return (
 		<footer className='footer bg-[hsl(205,67%,5%)]'>
-			<div className='container     '>
+			<div className='container'>
 				<div className='row'>
 					<div className='footer-col'>
-						<h4>Kontakt info</h4>
+						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
+							Kontakt info
+						</h4>
 						<ul>
 							<li>
 								email:{' '}
@@ -15,7 +17,7 @@ function Footer() {
 								</a>
 							</li>
 							<li>
-								<a href='#'>our services</a>
+								<a href='#'>blaaa</a>
 							</li>
 							<li>
 								<a href='#'>privacy policy</a>
@@ -26,7 +28,9 @@ function Footer() {
 						</ul>
 					</div>
 					<div className='footer-col'>
-						<h4>get help</h4>
+						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
+							Korisni linkovi
+						</h4>
 						<ul>
 							<li>
 								<a href='#'>FAQ</a>
@@ -46,7 +50,9 @@ function Footer() {
 						</ul>
 					</div>
 					<div className='footer-col'>
-						<h4>online shop</h4>
+						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
+							online shop
+						</h4>
 						<ul>
 							<li>
 								<a href='#'>watch</a>
@@ -63,7 +69,9 @@ function Footer() {
 						</ul>
 					</div>
 					<div className='footer-col '>
-						<h4>follow us</h4>
+						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12 before:content-[""]'>
+							Pratite nas
+						</h4>
 						<div className='social-links'>
 							<a
 								href='https://www.facebook.com/PlusUltraYouth'
