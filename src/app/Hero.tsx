@@ -3,10 +3,9 @@ import React from 'react';
 
 function Hero() {
 	return (
-		<section className='min-h-screen flex flex-col md:grid place-items-center px-16 md:pr-0 gap-12 grid-cols-12'>
+		<section className=' flex flex-col md:grid place-items-center px-16 md:pr-0 gap-28 grid-cols-12 max-h-[1200px] overflow-hidden'>
 			<div className='home-content flex flex-col gap-4 col-span-4 '>
 				<h1>Učimo mlade, otvaramo puteve budućnosti!</h1>
-
 				<p>
 					Pridružite se našoj zajednici mladih entuzijasta koji
 					zajedno rastu, uče i ostvaruju svoj pun potencijal.
@@ -42,7 +41,7 @@ function Hero() {
 			</div>
 
 			<Image
-				src='https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'
+				src='https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/347434469_794740782211735_6016721572840095819_n.webp?stp=dst-jpg_e35&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=ImEvJLnhMjcAX810gfq&edm=ALQROFkBAAAA&ccb=7-5&ig_cache_key=MzEwNjMwMjc5Mzc3Mjg5MTE2OA%3D%3D.2-ccb7-5&oh=00_AfD9qP3Eh1He3LR4CbbEK_-YZnYiZIJm1-7wF442vBg6xA&oe=648CAFCD&_nc_sid=b3163e'
 				alt='My project'
 				width={1000}
 				height={1600}

@@ -3,13 +3,16 @@ import React from 'react';
 function Footer() {
 	return (
 		<footer className='footer bg-[hsl(205,67%,5%)]'>
-			<div className='container'>
+			<div className='container     '>
 				<div className='row'>
 					<div className='footer-col'>
-						<h4>company</h4>
+						<h4>Kontakt info</h4>
 						<ul>
 							<li>
-								<a href='#'>about us</a>
+								email:{' '}
+								<a href='mailto:info@plusultra.ba'>
+									info@plusultra.ba
+								</a>
 							</li>
 							<li>
 								<a href='#'>our services</a>
