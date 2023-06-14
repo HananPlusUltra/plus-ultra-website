@@ -1,22 +1,21 @@
 import Image from 'next/image';
 import React from 'react';
+import Button from './Button';
 
 function Hero() {
 	return (
 		<section className=' flex flex-col md:grid place-items-center px-16 md:pr-0 gap-28 grid-cols-12 max-h-[1200px] overflow-hidden'>
 			<div className='home-content flex flex-col gap-4 col-span-4 '>
-				<h1>Učimo mlade, otvaramo puteve budućnosti!</h1>
+				<h1 className='text-4xl font-bold'>
+					Učimo mlade, otvaramo puteve budućnosti!
+				</h1>
 				<p>
 					Pridružite se našoj zajednici mladih entuzijasta koji
 					zajedno rastu, uče i ostvaruju svoj pun potencijal.
 				</p>
 				<div className='btn-box flex justify-between flex-col gap-4'>
-					<a href='#' className='bg-[#00abf0] text-[#081b29]'>
-						Postani volonter
-					</a>
-					<a href='#' className='bg-transparent text-[#00abf0]'>
-						Naši projekti
-					</a>
+					<Button type='button'>Postani volonter</Button>
+					<Button type='button'>Naši projekti</Button>
 				</div>
 				<div className='home-sci flex gap-8'>
 					<a

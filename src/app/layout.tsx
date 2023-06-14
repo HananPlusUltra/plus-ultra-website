@@ -18,7 +18,8 @@ export default function RootLayout({
 		<html lang='en'>
 			<body
 				className={
-					inter.className + ' max-w-screen-2xl mx-auto min-h-screen'
+					inter.className +
+					' max-w-screen-2xl mx-auto min-h-screen bg-[#081b29] text-[#ededed] '
 				}
 			>
 				{children}
