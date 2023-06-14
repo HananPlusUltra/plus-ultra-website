@@ -13,7 +13,7 @@ function Header() {
 						height={50}
 					></Image>
 				</a>
-				<nav className='flex gap-8 text-lg hover:text-[#00abf0]'>
+				<nav className='md:flex gap-8 text-lg hover:text-[#00abf0] hidden'>
 					<a href='/' className='active text-[#00abf0]'>
 						Početna
 					</a>
