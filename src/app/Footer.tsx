@@ -16,60 +16,11 @@ function Footer() {
 									info@plusultra.ba
 								</a>
 							</li>
-							<li>
-								<a href='#'>blaaa</a>
-							</li>
-							<li>
-								<a href='#'>privacy policy</a>
-							</li>
-							<li>
-								<a href='#'>affiliate program</a>
-							</li>
 						</ul>
 					</div>
-					<div className='footer-col'>
-						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
-							Korisni linkovi
-						</h4>
-						<ul>
-							<li>
-								<a href='#'>FAQ</a>
-							</li>
-							<li>
-								<a href='#'>shipping</a>
-							</li>
-							<li>
-								<a href='#'>returns</a>
-							</li>
-							<li>
-								<a href='#'>order status</a>
-							</li>
-							<li>
-								<a href='#'>payment options</a>
-							</li>
-						</ul>
-					</div>
-					<div className='footer-col'>
-						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
-							online shop
-						</h4>
-						<ul>
-							<li>
-								<a href='#'>watch</a>
-							</li>
-							<li>
-								<a href='#'>bag</a>
-							</li>
-							<li>
-								<a href='#'>shoes</a>
-							</li>
-							<li>
-								<a href='#'>dress</a>
-							</li>
-						</ul>
-					</div>
+
 					<div className='footer-col '>
-						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12 before:content-[""]'>
+						<h4 className='before:content-[""] before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12 '>
 							Pratite nas
 						</h4>
 						<div className='social-links'>

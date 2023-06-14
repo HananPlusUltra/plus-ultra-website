@@ -19,7 +19,7 @@ export default function RootLayout({
 			<body
 				className={
 					inter.className +
-					' max-w-screen-2xl mx-auto min-h-screen bg-[#081b29] text-[#ededed] '
+					' max-w-screen-2xl mx-auto min-h-screen bg-[#081b29] text-[#ededed] font-sans'
 				}
 			>
 				{children}

@@ -1,9 +1,37 @@
+'use client';
 import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React from 'react';
+interface NavItem {
+	href: string;
+	text: string;
+	isActive?: boolean;
+}
+
+const navItems: NavItem[] = [
+	{
+		href: '/',
+		text: 'Početna',
+	},
+	{
+		href: '/about',
+		text: 'O nama',
+	},
+	{
+		href: '/projects',
+		text: 'Projekti',
+	},
+	{
+		href: '/contact',
+		text: 'Kontakt',
+	},
+];
 
 function Header() {
+	const pathname = usePathname();
 	return (
-		<header className='fixed top-0 bg-[#081b29]/80 backdrop-blur-lg left-0 w-full py-6 px-16  z-50'>
+		<header className='fixed top-0 bg-[#081b29]/80 backdrop-blur-lg inset-x-0 py-6 px-16  z-50'>
 			<div className='flex justify-between items-center max-w-screen-2xl mx-auto'>
 				<a href='/' className='logo' aria-label='home'>
 					<Image
@@ -13,13 +41,23 @@ function Header() {
 						height={50}
 					></Image>
 				</a>
-				<nav className='md:flex gap-8 text-lg hover:text-[#00abf0] hidden'>
-					<a href='/' className='active text-[#00abf0]'>
-						Početna
-					</a>
-					<a href='/'>O nama</a>
-					<a href='/'>Projekti</a>
-					<a href='/'>Kontakt</a>
+				<nav className='md:flex gap-8 text-lg  hidden'>
+					<ul className='flex gap-8'>
+						{navItems.map((item, id) => (
+							<li key={id}>
+								<Link
+									href={item.href}
+									className={
+										pathname === item.href
+											? 'text-[#00abf0]'
+											: ''
+									}
+								>
+									{item.text}
+								</Link>
+							</li>
+						))}
+					</ul>
 				</nav>
 			</div>
 		</header>
