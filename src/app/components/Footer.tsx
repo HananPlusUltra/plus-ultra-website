@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
 	return (
-		<footer className='footer bg-[hsl(205,67%,5%)]'>
+		<footer className='footer dark:bg-[hsl(205,67%,5%)] bg-[hsl(205,67%,95%)]'>
 			<div className='container'>
 				<div className='row'>
 					<div className='footer-col'>

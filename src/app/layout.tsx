@@ -1,7 +1,8 @@
-import Footer from './Footer';
+import Footer from './components/Footer';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import Header from './components/Header';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -19,9 +20,10 @@ export default function RootLayout({
 			<body
 				className={
 					inter.className +
-					' max-w-screen-2xl mx-auto min-h-screen bg-[#081b29] text-[#ededed] font-sans'
+					' max-w-screen-2xl mx-auto min-h-screen dark:bg-[#081b29] dark:text-[#ededed] font-sans'
 				}
 			>
+				<Header></Header>
 				{children}
 				<Footer></Footer>
 			</body>

@@ -4,7 +4,7 @@ import Button from './Button';
 
 function Hero() {
 	return (
-		<section className=' flex flex-col md:grid place-items-center px-16 md:pr-0 gap-28 grid-cols-12 max-h-[1200px] overflow-hidden min-h-screen'>
+		<section className=' flex flex-col md:grid place-items-center px-16 md:pr-0 gap-28 grid-cols-12 max-h-[1200px] overflow-hidden min-h-[80vh]'>
 			<div className='home-content flex flex-col gap-4 col-span-4 '>
 				<h1 className='text-4xl font-bold'>
 					Učimo mlade, otvaramo puteve budućnosti!
@@ -44,7 +44,7 @@ function Hero() {
 				alt='My project'
 				width={1000}
 				height={1600}
-				className='md:h-screen col-span-8 order-first md:order-none rounded-l-xl'
+				className='md:h-[80vh] col-span-8 order-first md:order-none rounded-l-xl'
 			/>
 		</section>
 	);

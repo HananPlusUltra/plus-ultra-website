@@ -1,13 +1,12 @@
-import Image from 'next/image';
-import Header from './Header';
-import Hero from './Hero';
+import Header from './components/Header';
+import Hero from './components/Hero';
 import 'boxicons/css/boxicons.min.css';
-import AboutSection from './About';
+import AboutSection from './components/About';
 
 export default function Home() {
 	return (
 		<main className='flex min-h-screen flex-col '>
-			<Header></Header>
+			
 			<Hero></Hero>
 			<AboutSection></AboutSection>
 		</main>
