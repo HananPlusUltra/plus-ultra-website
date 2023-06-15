@@ -1,21 +1,47 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import { ButtonStyle } from '../Cvas';
+import { ButtonProps } from '../Types';
+import Link from 'next/link';
 
-interface ButtonProps {
-	onClick?: () => void;
-	children: ReactNode;
-	type: 'button' | 'submit' | 'reset';
-}
-
-const Button: React.FC<ButtonProps> = ({ onClick, children, type }) => {
-	return (
+const Button: React.FC<ButtonProps> = ({
+	onClick,
+	children,
+	type,
+	intent,
+	href,
+	radius,
+	size,
+	icon,
+}) => {
+	let Button = (
 		<button
 			onClick={onClick}
-			type={type}
-			className=' flex justify-center items-center flex-col gap-4 h-12 border-2 border-solid border-[#00abf0] rounded-lg text-lg font-semibold py-1.5 px-3 hover:bg-[#00abf0]/30 backdrop-blur-xl transition'
+			type={type ?? 'button'}
+			className={ButtonStyle({ intent })}
 		>
 			{children}
 		</button>
 	);
+	if (href)
+		Button = (
+			<Link href={href} className={ButtonStyle({ intent, radius, size })}>
+				{children}
+			</Link>
+		);
+	if (icon && href)
+		Button = (
+			<Link
+				href={href}
+				className={`!rounded-full !p-0  h-8 w-8 ${ButtonStyle({
+					intent,
+					radius,
+					size,
+				})}`}
+			>
+				<i className={icon}></i>
+			</Link>
+		);
+	return Button;
 };
 
 export default Button;

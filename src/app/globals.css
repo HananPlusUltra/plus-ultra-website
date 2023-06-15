@@ -6,30 +6,6 @@ img {
 	object-fit: cover;
 }
 
-h3 {
-	font-size: 24px;
-	font-weight: 700;
-	color: #00abf0;
-}
-
-.home-sci a {
-	position: relative;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	width: 40px;
-	height: 40px;
-	background: transparent;
-	border: 2px solid #00abf0;
-	border-radius: 50%;
-	font-size: 20px;
-	color: #00abf0;
-	text-decoration: none;
-	z-index: 1;
-	transition: 0.5s;
-	overflow: hidden;
-}
-
 .container {
 	max-width: 1170px;
 	margin: auto;

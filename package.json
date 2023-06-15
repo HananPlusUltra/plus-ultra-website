@@ -15,6 +15,7 @@
 		"@vercel/analytics": "^1.0.1",
 		"autoprefixer": "10.4.14",
 		"boxicons": "2.1.4",
+		"cva": "npm:class-variance-authority@^0.6.0",
 		"eslint": "8.42.0",
 		"eslint-config-next": "13.4.5",
 		"next": "13.4.5",

@@ -6,7 +6,7 @@ function Footer() {
 			<div className='container'>
 				<div className='row'>
 					<div className='footer-col'>
-						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12'>
+						<h4 className='before:absolute before:left-0 before:-bottom-2.5 before:bg-picton-blue-500 before:h-0.5 w-12'>
 							Kontakt info
 						</h4>
 						<ul>
@@ -20,7 +20,7 @@ function Footer() {
 					</div>
 
 					<div className='footer-col '>
-						<h4 className='before:content-[""] before:absolute before:left-0 before:-bottom-2.5 before:bg-[#00abf0] before:h-0.5 w-12 '>
+						<h4 className='before:content-[""] before:absolute before:left-0 before:-bottom-2.5 before:bg-picton-blue-500 before:h-0.5 w-12 '>
 							Pratite nas
 						</h4>
 						<div className='social-links'>

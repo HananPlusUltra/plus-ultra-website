@@ -60,7 +60,7 @@ function Header() {
 									href={item.href}
 									className={
 										pathname === item.href
-											? 'text-[#00abf0]'
+											? 'text-picton-blue-500'
 											: ''
 									}
 								>

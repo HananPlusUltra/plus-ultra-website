@@ -14,28 +14,29 @@ function Hero() {
 					zajedno rastu, uče i ostvaruju svoj pun potencijal.
 				</p>
 				<div className='btn-box flex justify-between flex-col gap-4'>
-					<Button type='button'>Postani volonter</Button>
-					<Button type='button'>Naši projekti</Button>
+					<Button intent='primary' href='/apply'>
+						Postani volonter
+					</Button>
+					<Button href='/projects'>Naši projekti</Button>
 				</div>
 				<div className='home-sci flex gap-8'>
-					<a
+					<Button
 						href='https://www.facebook.com/PlusUltraYouth'
 						aria-label='Facebook'
-					>
-						<i className='bx bxl-facebook'></i>
-					</a>
-					<a
+						icon='bx bxl-facebook'
+					></Button>
+
+					<Button
 						href='https://www.instagram.com/plusultrayouth'
 						aria-label='Instagram'
-					>
-						<i className='bx bxl-instagram'></i>
-					</a>
-					<a
+						icon='bx bxl-instagram'
+					></Button>
+
+					<Button
 						href='https://www.linkedin.com/company/plusultrayouth'
 						aria-label='Linkedin'
-					>
-						<i className='bx bxl-linkedin'></i>
-					</a>
+						icon='bx bxl-linkedin'
+					></Button>
 				</div>
 			</div>
 
