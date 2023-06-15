@@ -18,14 +18,37 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<Head>
+			<head>
+				<meta property='og:type' content='website' />
+				<meta property='og:url' content='https://metatags.io' />
+				<meta
+					property='og:title'
+					content='Meta Tags — Preview, Edit and Generate'
+				/>
+				<meta
+					property='og:description'
+					content='With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!'
+				/>
 				<meta
 					property='og:image'
-					content='https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/275744187_1124839878264366_5327447242546037122_n.jpg?stp=dst-jpg_e35&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=snTzyTKTcwkAX9ryIzb&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=Mjc5MTgzNzIxOTg3MjI3OTUwNA%3D%3D.2-ccb7-5&oh=00_AfAk7T2wTQGp7m048gh5EbXt9VSbPUYyFg2a2mUWRF3rBQ&oe=648EC0BE&_nc_sid=a1ad6c'
+					content='https://metatags.io/images/meta-tags.png'
 				/>
-				<meta property='og:image:width' content='1200' />
-				<meta property='og:image:height' content='630' />
-			</Head>
+
+				<meta property='twitter:card' content='summary_large_image' />
+				<meta property='twitter:url' content='https://metatags.io' />
+				<meta
+					property='twitter:title'
+					content='Meta Tags — Preview, Edit and Generate'
+				/>
+				<meta
+					property='twitter:description'
+					content='With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!'
+				/>
+				<meta
+					property='twitter:image'
+					content='https://metatags.io/images/meta-tags.png'
+				/>
+			</head>
 			<body
 				className={
 					inter.className +
