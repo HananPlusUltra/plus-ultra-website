@@ -20,7 +20,7 @@ export default function RootLayout({
 		<html lang='en'>
 			<head>
 				<meta property='og:type' content='website' />
-				<meta property='og:url' content='https://metatags.io' />
+				<meta property='og:url' content='https://plusultra.ba' />
 				<meta
 					property='og:title'
 					content='Udruženje za razvoj i podršku mladih Plus Ultra'
@@ -32,7 +32,7 @@ export default function RootLayout({
 				<meta property='og:image' content='/project1.jpg' />
 
 				<meta property='twitter:card' content='summary_large_image' />
-				<meta property='twitter:url' content='https://metatags.io' />
+				<meta property='twitter:url' content='https://plusultra.ba' />
 				<meta
 					property='twitter:title'
 					content='Udruženje za razvoj i podršku mladih Plus Ultra'
