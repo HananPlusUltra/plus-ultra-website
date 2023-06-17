@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <ul>
+        <li>
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Join</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container">
+        <div class="left">
+          <div class="form-wrapper">
+            <div class="contact-heading">
+              <h1>Radimo zajedno<span>.</span></h1>
+              <p class="text">Ili kontaktirajte nas preko : <a href="mailto:info@plusultra.ba">info@plusultra.ba</a></p>
+            </div>
+            <form action="index.html" method="post" class="contact-form">
+              <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="First Name" type="text" required>
+                <label>Ime</label>
+                <i class="icon fa-solid fa-id-card"></i>
+              </div>
+
+              <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="Last Name" type="text" required>
+                <label>Prezime</label>
+                <i class="icon fa-solid fa-id-card"></i>
+              </div>
+
+              <div class="input-wrap w-100">
+                <input class="contact-input" autocomplete="off" name="Email" type="email" required>
+                <label>Email</label>
+                <i class="icon fa-solid fa-envelope"></i>
+              </div>
+
+              <div class="input-wrap textarea w-100">
+                <textarea name="Message" auto-complete="off" class="contact-input" required></textarea>
+                <label>Poruka</label>
+                <i class="icon fa-solid fa-inbox"></i>
+              </div>
+              <div class="contact-buttons">
+                <button class="btn upload">
+                  <span>
+                    <i class="fa-solid fa-paperclip"></i>Prilog
+                  </span>
+                  <input type="file" name="attachment">
+                </button>
+                <input type="submit" value="Pošalji poruku" class="btn">
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="image-wrapper">
+            <img src="./img/plusultra.webp" class="img">
+          </div>
+          <div class="wave-wrap">
+          <svg width="351" height="392" viewBox="0 0 351 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.371094 391.838H350.434V0.367676H188.637C188.637 0.367676 173.686 19.1611 162.589 29.74C124.619 65.9394 51.0598 38.8816 42.8835 90.7015C33.8518 147.943 111.92 172.353 105.507 232.575C99.0952 292.797 0.370848 278.766 0.371094 363.572V391.838Z" fill="#9AB39A"/>
+</svg>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
