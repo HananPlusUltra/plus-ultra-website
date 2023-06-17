@@ -29,7 +29,7 @@ export default function RootLayout({
 					property='og:description'
 					content='Učimo mlade, otvaramo puteve budućnosti!'
 				/>
-				<meta property='og:image' content='/project1.jpg' />
+				<meta property='og:image' content='/og-img.webp' />
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='https://plusultra.ba' />
@@ -41,7 +41,7 @@ export default function RootLayout({
 					property='twitter:description'
 					content='Učimo mlade, otvaramo puteve budućnosti!'
 				/>
-				<meta property='twitter:image' content='/project1.jpg' />
+				<meta property='twitter:image' content='/og-img.webp' />
 			</head>
 			<body
 				className={
